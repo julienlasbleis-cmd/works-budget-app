@@ -1,4 +1,5 @@
-export const dynamic = "force-dynamic";
+// src/app/api/users/route.ts
+export const dynamic = "force-dynamic"; // ⚡ empêche pré-render
 
 import { NextRequest, NextResponse } from "next/server";
 import { supabaseServer } from "@/lib/supabaseServerClient"; // utilise le client serveur
